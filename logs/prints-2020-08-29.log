@@ -1,0 +1,6 @@
+10:59:24.103 [main] INFO  framework.pages.HomePage - signed in successfully
+10:59:24.210 [main] INFO  framework.pages.HomePage - dropdown selected successfully
+10:59:24.400 [main] INFO  framework.pages.AmazonProductPage - search results obtained successfully
+11:12:50.459 [main] INFO  framework.baseClass.SeleniumBase - browser launched successfully
+11:12:59.453 [main] INFO  framework.pages.HomePage - signed in successfully
+11:12:59.565 [main] INFO  framework.pages.HomePage - dropdown selected successfully

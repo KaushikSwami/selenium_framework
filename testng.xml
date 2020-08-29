@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10">
+<listeners>
+<listener class-name="framework.listeners.Listeners"/>
+</listeners>
+<parameter name="email" value="kaushbabbi@gmail.com"/>
+<parameter name="password" value="KAUSH@wwe1991"/>
+  <test  name="Test" >
+    <classes>
+      <class name="framework.testcases.TC001_Login"/>
+      <class name="framework.testcases.TC002_Search_Product"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

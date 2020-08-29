@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32344" started-at="2020-08-29T10:59:00 IST" finished-at="2020-08-29T10:59:33 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="32344" started-at="2020-08-29T10:59:00 IST" finished-at="2020-08-29T10:59:33 IST">
+      <class name="framework.testcases.TC001_Login">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:framework.testcases.TC001_Login@2118cddf]" name="startBrowser" is-config="true" duration-ms="15506" started-at="2020-08-29T10:59:00 IST" finished-at="2020-08-29T10:59:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="user_login(java.lang.String, java.lang.String)[pri:0, instance:framework.testcases.TC001_Login@2118cddf]" name="user_login" duration-ms="7613" started-at="2020-08-29T10:59:16 IST" finished-at="2020-08-29T10:59:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kaushbabbi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[KAUSH@wwe1991]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:framework.testcases.TC001_Login@2118cddf]" name="closeBrowser" is-config="true" duration-ms="8905" started-at="2020-08-29T10:59:24 IST" finished-at="2020-08-29T10:59:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- framework.testcases.TC001_Login -->
+      <class name="framework.testcases.TC002_Search_Product">
+        <test-method status="PASS" signature="search_product()[pri:1, instance:framework.testcases.TC002_Search_Product@17a7f733]" name="search_product" duration-ms="290" started-at="2020-08-29T10:59:24 IST" finished-at="2020-08-29T10:59:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_product -->
+      </class> <!-- framework.testcases.TC002_Search_Product -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
