@@ -14,7 +14,7 @@ import framework.baseClass.SeleniumBase;
 public class HomePage extends SeleniumBase{
 	
 	public WebDriver driver;
-	public String expected_text="Hello, kaushik";
+	public String expected_text="Hello, kaushik abcbcd";
 	public String actual_text;
 	private static Logger log=LogManager.getLogger(HomePage.class.getName());
 
